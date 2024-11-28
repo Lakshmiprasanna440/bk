@@ -1,0 +1,78 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.img1{
+    position: absolute;
+    padding: 10px 75px;
+    min-width:80px;
+    
+}
+.container .fa-brands{
+    position: absolute;
+    padding: 10px 75px;
+    width:100px;
+    /*border: 2px solid;*/
+}
+.fa-solid{
+    position: absolute;
+    padding: 10px 75px;
+    min-width: 60px;
+    color: rgb(68, 8, 8);
+}
+img{
+    margin-top: 50px;
+    width: 30%;
+    margin-left: 580px;
+}
+/*@font-face{
+    font-family: 'Flame-Bold';
+    src: url("./FlameBold.otf");
+}*/
+p{
+    margin-left: 680px;
+    font-size:20px;
+    color: rgb(68, 9, 9);
+    /*font-family: 'Flame-bold';*/
+
+}
+body{
+    background-color: white;
+}
+#form{
+    /*border: 2px solid;*/
+    width: 400px;
+    background-color:white;
+margin-left: 580px;
+    border-radius: 18px;
+    padding: 20px 18px 30px;
+    /*box-shadow: 10px 20px 30px 40px rgba(128, 128, 128, 0.413);*/
+}
+.size{
+
+    width: 100%;
+    margin-bottom: 30px ;
+}
+input{
+
+
+    padding: 10px 15px;
+    border-radius: 8px;
+    border: 2px solid lightgrey;
+
+
+}
+input::placeholder{
+    color:rgb(131, 101, 101) ;
+    font-size: 18px;
+    text-align: center;
+
+}
+input:hover{
+    caret-color: rgb(21, 21, 22);
+    border: 1px solid rgb(18, 18, 19);
+    outline: 1px solid lightblue ;
+
+}
